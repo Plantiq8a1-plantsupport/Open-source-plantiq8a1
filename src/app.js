@@ -117,7 +117,7 @@ async function getAIResponse(message) {
     if (responseCache[message]) return responseCache[message];
 
     const apiUrl = "https://api.openai.com/v1/chat/completions";
-    const apiKey = ""; 
+    const apiKey = process.env.OPENAI_API_KEY; 
 
 
     try {
