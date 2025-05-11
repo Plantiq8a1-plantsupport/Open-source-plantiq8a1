@@ -1,7 +1,7 @@
 # Plantiq8a1 - EDS_Trh_8A1
 
 ## Introduction
-AI Trồng Cây is an AI-powered web application designed to assist users in plant care. This project aims to make plant analysis and care easier by leveraging modern AI technology, including OpenAI and Gemini models. The application provides two core functionalities:
+Plantiq8a1 is an AI-powered web application designed to assist users in plant care. This project aims to make plant analysis and care easier by leveraging modern AI technology, including OpenAI and Gemini models. The application provides two core functionalities:
 1. **AI Consultant** - Users can interact with an AI chatbot that provides expert advice on plant care, including watering schedules, pest control, and optimal growth conditions.
 2. **AI Image Analysis** - Users can upload images of their plants, and the AI model will analyze their health status, identifying diseases, nutrient deficiencies, and other potential issues with an accuracy rate of 99.9%.
 
@@ -16,9 +16,10 @@ The project is completely **free and open-source**, designed to be accessible to
 ## Technologies Used
 - **Frontend:** HTML, CSS, JavaScript, React.js
 - **Backend:** Node.js, Express.js
-- **AI Models:** OpenAI, Gemini for chatbot and image analysis
+- **AI Models:** OpenAI, Gemini, Copilot for chatbot, image analysis and search plant data
 - **Database:** MongoD (for storing user interactions and plant data)
-- **Cloud Storage:** TensorFlow
+- **Cloud Storage & Database:** Microsoft Azure
+- **infrastructure:** TensorFlow
 
 ## Installation & Setup
 ### Prerequisites
@@ -31,7 +32,7 @@ Ensure you have the following installed before proceeding:
 ### Installation Steps
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-repository/AI-Trong-Cay.git
+   git clone <our link>
    cd AI-Trong-Cay
    ```
 2. **Install dependencies:**
@@ -329,5 +330,7 @@ For inquiries, support, or collaboration, please reach out via:
 + Do Xuan Bao Ninh
 
 ---
-We hope AI Trồng Cây helps you take better care of your plants! 🌱🚀
+We hope Plantiq8a1 helps you take better care of your plants! 🌱🚀
+
+#AIFORGOOD2025 (VN)
 
