@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌿 Tìm Hiểu Về Cây - AI Trồng Cây</title>
+    <link rel="stylesheet" href="webmainsrc/treesweb.css">
+</head>
+<body>
+
+    
+    <header class="fade-in-down">
+        <h2 class="logo">🌱 AI Trồng Cây! (8A1 - Edison Schools)</h2>
+        <nav class="menu-1">
+            <a href="main.html">🏠 Trang chủ</a>
+            <a href="maintlakchoose.html">💬 Chat với AI</a>
+            <a href="aboutus.html">👨‍👩‍👧‍👦 Về chúng tôi</a>
+            <a href="settings.html" class="active-1">⚙️</a>
+            <button onclick="toggleTheme()" class="button-theme">🌗</button>
+            <button class="logout-button" onclick="window.location.href='login.html'">Đăng xuất</button>
+
+        </nav>
+    </header>
+
+    
+    <section class="plants-section fade-in">
+        <h1>🌿 Tìm Hiểu Về Cây</h1>
+        <!--<input type="text" id="searchInput" placeholder="Nhập tên cây trồng..."> -->
+        <p class="skibidi">Những cây bạn nên trồng trong nhà!</p>
+
+        <div class="plants-container" id="plant-container-main">
+            <div class="plant-card" id="plant-card-2">
+                <img src="http://vuoncaynhietdoi.com/Data/upload/files/1(5).jpg" alt="Cây Trầu Bà">
+                <h2>🌿 Cây Trầu Bà</h2>
+                <p>Loại cây này giúp thanh lọc không khí, dễ chăm sóc và thích hợp để trang trí trong nhà.</p>
+            </div>
+
+            <div class="plant-card" id="plant-card-2">
+                <img src="https://cdn.eva.vn/upload/3-2022/images/2022-07-08/image16-1657261714-63-width2000height2000.jpg" alt="Cây Lưỡi Hổ">
+                <h2>🌱 Cây Lưỡi Hổ</h2>
+                <p>Có khả năng hấp thụ khí độc và tăng cường oxy, tốt cho phòng ngủ.</p>
+            </div>
+
+            <div class="plant-card" id="plant-card-2">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.PpP11B4JQjQz06VDR2zr4gHaHa&pid=Api&P=0&h=180" alt="Cây Sen Đá">
+                <h2>🌵 Cây Sen Đá</h2>
+                <p>Là một loại cây mọng nước, có nhiều màu sắc đẹp, dễ trồng và chăm sóc.</p>
+            </div>
+
+            <div class="plant-card" id="plant-card-2">
+                <img src="https://i.ytimg.com/vi/vy9BPj2ppH8/maxresdefault.jpg" alt="Cây Xương Rồng">
+                <h2>🌵 Cây Xương Rồng</h2>
+                <p>Chịu hạn tốt, không cần tưới nước nhiều, thích hợp làm cây cảnh trên bàn làm việc.</p>
+            </div>
+
+            <div class="plant-card" id="plant-card-2">
+                <img src="https://static-images.vnncdn.net/files/publish/2022/8/4/cach-trong-va-y-nghia-phong-thuy-it-nguoi-biet-cua-cay-lan-y-01b3d060089e4d20839cad5049cfb384.jpg" alt="Cây Lan Ý">
+                <h2>🌸 Cây Lan Ý</h2>
+                <p>Cây Lan Ý không chỉ đẹp mà còn giúp lọc không khí, mang lại không gian thư giãn cho ngôi nhà.</p>
+            </div>
+
+            <div class="plant-card" id="plant-card-2">
+                <img src="https://giadinh.mediacdn.vn/296230595582509056/2022/12/20/cay-phat-tai-menh-moc-1671506335586639137827.jpg" alt="Cây Phát Tài">
+                <h2>💰 Cây Phát Tài</h2>
+                <p>Cây Phát Tài mang lại may mắn và thịnh vượng, thích hợp cho không gian làm việc và phòng khách.</p>
+            </div>
+
+            <div class="plant-card" id="plant-card-2">
+                <img src="https://www.tapdoantrananh.com.vn/uploads/files/2021/06/22/y-nghia-cay-duong-xi-trong-phong-thuy-1.jpg" alt="Cây Dương Xỉ">
+                <h2>🍃 Cây Dương Xỉ</h2>
+                <p>Cây Dương Xỉ với lá xanh mướt giúp tạo không gian sống tươi mát và gần gũi với thiên nhiên.</p>
+            </div>
+
+            <div class="plant-card" id="plant-card-2">
+                <img src="http://pgrvietnam.org.vn/wp-content/uploads/2018/08/cay-thuong-xuan-cach-trong-va-y-nghia-phong-thuy.png" alt="Cây Thường Xuân">
+                <h2>🍀 Cây Thường Xuân</h2>
+                <p>Cây Thường Xuân dễ trồng, có khả năng phát triển nhanh, tạo không gian xanh mát cho mọi căn phòng.</p>
+            </div>
+
+                <div class="plant-card" id="plant-card-2">
+                    <img src="https://product.hstatic.net/200000392593/product/img_2912_done_0f48f2cd026b46dda840a6233bf088e1_master.jpg" alt="Cây Đa Búp Đỏ">
+                    <h2>🌳 Cây Đa Búp Đỏ</h2>
+                    <p>Cây mang ý nghĩa phong thủy tốt, giúp thanh lọc không khí.</p>
+                </div>
+            
+                <div class="plant-card" id="plant-card-2">
+                    <img src="https://static1.cafeland.vn/cafelandnew/hinh-anh/2020/08/10/144/image-20200810172859-1.jpeg" alt="Cây Cỏ Lan Chi">
+                    <h2>🌱 Cây Cỏ Lan Chi</h2>
+                    <p>Dễ trồng, hấp thụ khí độc, thích hợp để bàn hoặc treo.</p>
+                </div>
+            
+                <div class="plant-card" id="plant-card-2">
+                    <img src="https://cdn.tgdd.vn/Files/2021/07/14/1368192/cay-hong-mon-y-nghia-phong-thuy-cach-trong-va-cham-soc-202301121522394638.jpg" alt="Cây Hồng Môn">
+                    <h2>🌿 Cây Hồng Môn</h2>
+                    <p>Có hoa đỏ đẹp, mang lại sự may mắn và thịnh vượng.</p>
+                </div>
+            
+                <div class="plant-card" id="plant-card-2">
+                    <img src="https://cdn.eva.vn/upload/4-2021/images/2021-10-21/image7-1634803687-132-width600height700.jpg" alt="Cây Kim Ngân">
+                    <h2>🍀 Cây Kim Ngân</h2>
+                    <p>Cây phong thủy mang lại tài lộc và may mắn.</p>
+                </div>
+            
+                <div class="plant-card" id="plant-card-2">
+                    <img src="https://hugevietnam.vn/wp-content/uploads/2022/10/cay-bac-ha-au.jpg" alt="Cây Bạc Hà">
+                    <h2>🍃 Cây Bạc Hà</h2>
+                    <p>Cây thảo mộc có hương thơm dịu nhẹ, giúp thư giãn.</p>
+                </div>
+            
+                <div class="plant-card" id="plant-card-2">
+                    <img src="https://lamvuon.net/wp-content/uploads/2020/10/cay-luoi-meo-thumb-976x720.jpg" alt="Cây Lưỡi Mèo">
+                    <h2>🌵 Cây Lưỡi Mèo</h2>
+                    <p>Giúp lọc không khí, phù hợp với không gian nhỏ.</p>
+                </div>
+            
+                <div class="plant-card" id="plant-card-2">
+                    <img src="https://webcaycanh.com/wp-content/uploads/2019/02/cach-cham-soc-cay-truc-nhat-va-y-nghia-phong-thuy.jpg" alt="Cây Trúc Nhật">
+                    <h2>🌿 Cây Trúc Nhật</h2>
+                    <p>Tạo cảm giác thư thái, mang phong cách Nhật Bản.</p>
+                </div>
+            
+                <div class="plant-card" id="plant-card-2">
+                    <img src="https://static1.cafeland.vn/cafelandnew/hinh-anh/2020/09/08/144/image-20200908162210-2.jpeg" alt="Cây Sống Đời">
+                    <h2>🌼 Cây Sống Đời</h2>
+                    <p>Cây mọng nước, dễ chăm sóc, tượng trưng cho sự bền bỉ.</p>
+                </div>
+            
+                <div class="plant-card" id="plant-card-2">
+                    <img src="https://lamvuon.net/wp-content/uploads/2021/04/cay-cau-canh-thumb.jpg" alt="Cây Cau Cảnh">
+                    <h2>🌳 Cây Cau Cảnh</h2>
+                    <p>Thích hợp cho không gian rộng, tạo vẻ xanh mát tự nhiên.</p>
+                </div>
+            
+                <div class="plant-card" id="plant-card-2">
+                    <img src="https://cdn.tgdd.vn/Files/2021/07/29/1371563/nhat-mat-huong-dac-diem-y-nghia-cach-trong-va-cham-soc-cay-cuc-khoe-va-dep-202201061532148706.jpg" alt="Cây Nhất Mạt Hương">
+                    <h2>🌱 Cây Nhất Mạt Hương</h2>
+                    <p>Có mùi thơm dễ chịu, giúp giảm stress.</p>
+                </div>
+        </div>
+
+        <a href="main.html" class="btn">🔙 Quay lại Trang Chủ</a>
+        <p>Cây sẽ được cập nhật theo thời gian sớm nhất có thể!</p>
+    </section>
+
+    <script src="webmainsrc/tree.js"></script>
+    <script src="webmainsrc/style-img-ai.js"></script>
+    <script src="webmainsrc/treesearch.js"></script>
+
+</body>
+</html>
+
+<!--8a1 - Nguyen Binh MInh-->

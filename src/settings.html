@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cài đặt - AI Trồng Cây</title>
+    <link rel="stylesheet" href="webmainsrc/settings-style.css">
+    <script src="webmainsrc/datauserweblogin.js"></script>
+    <script src="webmainsrc/avatar.js"></script>
+</head>
+<body>
+
+<header class="fade-in-down">
+    <h2 class="logo">🌱 AI Trồng Cây! (8A1 - Edison Schools)</h2>
+    <nav class="menu-1">
+        <a href="main.html">🏠 Trang chủ</a>
+        <a href="maintlakchoose.html">💬 Chat với AI</a>
+        <a href="trees.html">🌿 Tìm hiểu về cây</a>
+        <button onclick="toggleTheme()" class="button-theme">🌗</button>
+        <button class="logout-button" onclick="window.location.href='login.html'">Đăng xuất</button>
+    </nav>
+</header>
+
+<section class="settings-container">
+    <h1>Cài đặt tài khoản</h1>
+    
+    <div class="user-info-box">
+        <p>👤 Tên hiện tại: <span id="username-display">Đang tải...</span></p>
+        <p>📧 Email hiện tại: <span id="email-display">Đang tải...</span></p>
+        <p>🔑 Mật khẩu: <span id="password-display">Đang được bảo mật...</span></p>
+        <div class="avatar-box">
+            <img id="profile-avatar" src="https://static.ybox.vn/2020/4/2/1588064401260-Tr%C6%B0%E1%BB%9Dng-ph%E1%BB%95-th%C3%B4ng-li%C3%AAn-c%E1%BA%A5p-Edison.jpg" alt="Ảnh đại diện" class="avatar">
+            
+            <div class="input-container">
+                <label class="custom-file-upload">
+                    📷 Chọn ảnh đại diện của bạn
+                    <input type="file" id="avatar-upload" accept="image/*">
+                </label>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="settings-box">
+        <label for="old-password">🔒 Mật khẩu cũ:</label>
+        <input type="password" id="old-password" placeholder="Nhập mật khẩu cũ">
+
+        <label for="username">👤Tên người dùng mới:</label>
+        <input type="text" id="username" placeholder="Nhập tên mới" />
+
+        <label for="email">📧Email mới:</label>
+        <input type="email" id="email" placeholder="Nhập email mới" />
+
+        <label for="password">🔒 Mật khẩu mới:</label>
+        <input type="password" id="password" placeholder="Nhập mật khẩu mới">
+
+        <button class="btn save-btn" onclick="updateSettings()">💾 Lưu thay đổi</button>
+    </div>
+
+    <div class="achievement-container">
+        <h3>🏆 Thành tựu</h3>
+        <ul id="achievementList"></ul>
+    </div>
+</section>
+
+<script src="webmainsrc/style-img-ai.js"></script>
+</body>
+</html>

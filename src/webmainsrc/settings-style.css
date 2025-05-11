@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('bgimg.png') no-repeat center center/cover;
+    transition: 0.5s;
+    min-height: 100vh;
+}
+
+
+header {
+    width: 100%;
+    padding: 15px 20px;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+
+.menu-1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.menu-1 a, .logout-button {
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.menu-1 a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #4caf50;
+    transform: scale(1.1);
+}
+
+.logout-button {
+    background: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 1em;
+}
+
+.logout-button:hover {
+    background: white;
+    color: rgb(86, 164, 52);
+}
+
+.menu-1 .button-theme {
+    padding: 8px 12px;
+    font-size: 1.2em;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menu-1 .button-theme:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+
+.dark-mode {
+    background: url('darkmode-bg.png') no-repeat center center/cover;
+}
+
+.dark-mode .menu-1 a {
+    color: white;
+}
+
+.dark-mode .menu-1 a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #4caf50;
+}
+
+.dark-mode .about-us {
+    background-color: #333;
+}
+
+.dark-mode p, .dark-mode div, .dark-mode b {
+    color: white;
+}
+
+
+.settings-container {
+    text-align: center;
+    padding: 50px 20px;
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    margin-top: 50px;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+
+
+.avatar-box {
+    display: flex;
+    align-items: center;
+    gap: 16px; 
+}
+
+
+.avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid rgb(136, 196, 109);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.avatar:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+}
+
+
+.input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+
+.custom-file-upload {
+    background-color: #81f001;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.custom-file-upload:hover {
+    background-color: rgb(136, 196, 109);
+    transform: scale(1.05);
+}
+
+
+#avatar-upload {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.8); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+.fade-in {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+
+.fade-in {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+
+.settings-container h1 {
+    font-size: 2.5em;
+    color: #4caf50;
+    margin-bottom: 20px;
+}
+
+
+.user-info-box {
+    background: rgba(76, 175, 80, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.user-info-box p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+
+#toggle-password {
+    padding: 5px 10px;
+    font-size: 0.9em;
+    border: none;
+    cursor: pointer;
+    background: #f0f0f0;
+    color: #333;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#toggle-password:hover {
+    background: #ddd;
+}
+
+
+.settings-box {
+    background: rgba(76, 175, 80, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.settings-box:hover {
+    background: rgba(76, 175, 80, 0.2);
+    transform: scale(1.05);
+}
+
+.settings-box label {
+    font-size: 1.2em;
+    color: #333;
+    display: block;
+    margin-top: 10px;
+}
+
+.settings-box input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1em;
+    margin-top: 5px;
+    border: 2px solid #4caf50;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.settings-box input:focus {
+    border-color: #388e3c;
+    outline: none;
+}
+
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 1.2em;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.save-btn {
+    background: #4caf50;
+    color: white;
+}
+
+.save-btn:hover {
+    background: #388e3c;
+    transform: scale(1.1);
+}
+
+.logout-btn {
+    background: #e53935;
+    color: white;
+}
+
+.logout-btn:hover {
+    background: #c62828;
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 768px) {
+    .settings-container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .menu-1 {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .menu-1 a {
+        font-size: 1em;
+        padding: 8px 10px;
+    }
+
+    .logo {
+        font-size: 1.5em;
+    }
+
+    .settings-container h1 {
+        font-size: 2em;
+    }
+
+    .settings-box label {
+        font-size: 1em;
+    }
+}
+
+.dark-mode .settings-container{
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode p{
+    color: white;
+}
+
+.dark-mode span{
+    color: white;
+}
+
+.dark-mode .show-password-container{
+    color: white;
+}
+
+.dark-mode label{
+    color: white;
+}
+
+.dark-mode input{
+    color: white;
+}
+
+/* add */
+
+.dark-mode .settings-box, 
+.dark-mode input {
+    color: white !important;
+    background-color: black !important; 
+    border: 1px solid white !important; 
+}
+
+
+input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+@keyframes fadeInDown {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+.achievement-container {
+    margin-top: 20px;
+    background: #ffeb3b;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.achievement-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.achievement-container li {
+    background: #ffc107;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+
+
+
+/*<!--8a1 - Nguyen Binh MInh-->*/

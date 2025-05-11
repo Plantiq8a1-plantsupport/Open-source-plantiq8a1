@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Trồng Cây 🌱</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" defer></script>
+</head>
+<body>
+
+    
+    <header class="fade-in-down">
+        <h2 class="logo">🌱 AI Trồng Cây! (8A1 - Edison Schools)</h2>
+        <nav class="menu-1">
+            <a href="aboutus.html">👨‍👩‍👧‍👦 Về Chúng Tôi</a>
+            <a href="main.html">🏠 Trang chủ</a>
+            <a href="trees.html">🌿 Tìm hiểu về cây</a>
+            <a href="settings.html" class="active-1">⚙️</a>
+            <button onclick="toggleTheme()" class="button-theme">🌗</button>
+            <button class="logout-button" onclick="window.location.href='login.html'">Đăng xuất</button>
+        </nav>
+    </header>
+
+    
+    <div class="chat-container">
+        <div class="chat-header">
+            <span>🤖 AI Trồng Cây (v1.0)</span>
+            <button onclick="window.location.href='maintlakchoose.html'" class="log-button">thoát</button>
+        </div>
+        <div class="chat-body" id="chat-body">
+    
+        </div>
+        <div class="chat-footer">
+            <input type="text" id="user-input" placeholder="Nhập tin nhắn...">
+            <!-- <label for="image-input" class="image-upload-label">📷(gửi anh)</label> -->
+            <input type="file" id="image-input" accept="image/*" hidden>
+            <button onclick="sendMessage()" id="enter">gửi</button>
+            <button onclick="clearChat()" class="button-clear">xóa chat</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="style.js"></script>
+</body>
+</html>
+
+<!--8a1 - Nguyen Binh MInh-->

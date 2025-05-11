@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Phân Tích Ảnh</title>
+    <link rel="stylesheet" href="webmainsrc/img-ai.css">
+</head>
+<body>
+    <header>
+        <div class="logo">🌱 AI Trồng Cây! (8a1- edison schools)</div>
+        <nav class="menu-1">
+            <a href="main.html">🏠 Trang chủ</a>
+            <a href="aboutus.html">👨‍👩‍👧‍👦 Về chúng tôi</a>
+            <a href="trees.html">🌿 Tìm hiểu về cây</a>
+            <a href="settings.html" class="active-1">⚙️</a>
+            <button onclick="toggleTheme()" class="button-theme">🌗</button>
+            <button class="logout-button" onclick="window.location.href='login.html'">Đăng xuất</button>
+        </nav>
+    </header>
+    <div class="container-chat-img">
+    <div class="container fade-in">
+        <div class="head-container">
+        <h1>📸 AI Phân Tích cây trồng bằng ảnh</h1>
+        <p>Tải ảnh cây trồng lên để AI phân tích và đưa ra kết quả! 🌱</p>
+        <button onclick="window.location.href='maintlakchoose.html'" class="log-button">Thoát</button>
+        </div>
+        
+        <div id="chat-container" class="container-chat-1">
+            <div id="upload-section" class="upload-container">
+                <h2>📤 Gửi Ảnh Cây Trồng</h2>
+                <input type="file" id="image-input" accept="image/*" class="img-input-container">
+                <button id="send-btn">🚀 Phân Tích Ảnh</button>
+                <div id="image-preview"></div>
+            </div>
+            <div id="response-section" class="response-container">
+                <h2>🤖 Phản Hồi Từ AI</h2>
+                <div id="ai-response">AI: Chào bạn! Bạn cần giúp gì về cây cối hôm nay?</div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="webmainsrc/img-ai.js"></script>
+    <script src="webmainsrc/style-img-ai.js"></script>
+</body>
+</html>
+
+<!--8a1 - Nguyen Binh MInh-->

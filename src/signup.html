@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vie"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginstyle.css">
+    <title>signup</title>
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+    <script src="webmainsrc/datauserweblogin.js"></script>
+</head>
+<body>
+    <div class = "bg"></div>
+    <div class="login-box">
+        <h1>Đăng ký</h1>
+        <input type="text" placeholder="Tên đăng nhập" id="username">
+        <input type="email" placeholder="Email" id="email" required>
+        
+        
+        <div class="password-container">
+            <input type="password" placeholder="Mật khẩu" id="password">
+            <span class="toggle-password" onclick="togglePassword()">👁</span>
+        </div>
+
+        <div class="password-container">
+            <input type="password" placeholder="Nhập lại mật khẩu" id="confirm-password">
+            <span class="toggle-password" onclick="togglePassword2()">👁</span>
+        </div>
+
+
+        <button id="signup-btn">Đăng ký</button>
+    </div>
+
+    <script src="webmainsrc/signuppasswordshow.js"></script>
+    <script src="webmainsrc/togglePassword2.js"></script>
+
+
+
+</body>
+</html>
+
+<!--8a1 - Nguyen Binh MInh-->
