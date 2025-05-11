@@ -1,15 +1,11 @@
-const apiKey = "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";
+const apiKey = "";
 const apiUrl = "https://api.openai.com/v1/chat/completions";
-const iotApiUrl = "https://api.openweathermap.org/data/2.5/weather?lat=21.0285&lon=105.8542&appid=eaaa750d1f7f271a82f687d3921af000&units=metric";
+const iotApiUrl = "https://api.openweathermap.org/data/2.5/weather?&units=metric";
 
-//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
-// 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
-//"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";
+;
 
 
-// https://api.openweathermap.org/data/2.5/weather?lat=21.0285&lon=105.8542&appid=694919170a94478bc79c0ded9aecf2a3&units=metric
-
-//https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={694919170a94478bc79c0ded9aecf2a3}
+/
 
 
 class LRUCache {

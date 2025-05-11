@@ -117,9 +117,8 @@ async function getAIResponse(message) {
     if (responseCache[message]) return responseCache[message];
 
     const apiUrl = "https://api.openai.com/v1/chat/completions";
-    const apiKey = "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"; 
+    const apiKey = ""; 
 
-    // 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
 
     try {
         const response = await fetch(apiUrl, {
