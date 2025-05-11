@@ -320,7 +320,7 @@ This project is licensed under the MIT License, meaning it is free to use, modif
 
 ## Contact
 For inquiries, support, or collaboration, please reach out via:
-- Email: [notmerblx2123@gmail.com]
+- Email: [aitrongcayservice366972@gmail.com]
 - team:
 + Nguyen Thanh Tung
 + Nguyen Binh Minh
