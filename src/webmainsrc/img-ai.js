@@ -1,6 +1,6 @@
 const apiKey = process.env.OPENAI_API_KEY;
-const apiUrl = "https://api.openai.com/v1/chat/completions";
-const iotApiUrl = "https://api.openweathermap.org/data/2.5/weather?&units=metric";
+const apiUrl = "https://plantiq8a1.vercel.app/log/api-vision-v1.json";
+const iotApiUrl = IoT.API; // use Openweather API
 
 
 
@@ -130,11 +130,11 @@ document.getElementById("send-btn").addEventListener("click", async () => {
                 "Authorization": `Bearer ${apiKey}`
             },
             body: JSON.stringify({
-                model: "gpt-4o-mini", 
+                model: "plantiq8a1-vision-lite", 
                 messages: [
                     {
                         role: "system",
-                        content: "Bạn là chuyên gia chăm sóc cây tên 'Chuyên gia chăm sóc cây'. Bạn tự xưng là 'Tôi' và gọi người dùng là 'Bạn'. Nhiệm vụ của bạn là chẩn đoán cây bệnh, chăm sóc cây, tìm kiếm thông tin về cây và hướng dẫn trồng cây bằng cách phân tích hình ảnh của cây. Bạn không trả lời các câu hỏi không liên quan đến chủ đề cây."
+                        content: "Bạn là chuyên gia trồng cây."
                     },
                     {
                         role: "user",
