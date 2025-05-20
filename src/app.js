@@ -116,7 +116,7 @@ window.onload = () => {
 async function getAIResponse(message) {
     if (responseCache[message]) return responseCache[message];
 
-    const apiUrl = "https://api.openai.com/v1/chat/completions";
+    const apiUrl = "https://plantiq8a1.vercel.app/log/apichatlite.json"; // v1: https://plantiq8a1.vercel.app/log/apichatv1.json
     const apiKey = process.env.OPENAI_API_KEY; 
 
 
@@ -128,7 +128,7 @@ async function getAIResponse(message) {
                 "Authorization": `Bearer ${apiKey}`
             },
             body: JSON.stringify({
-                model: "gpt-4o-mini", //  gpt-3.5-turbo 
+                model: "plantiq-8a1-deepthink-lite", //  plantiq-deepthink-v1
                 messages: [
                     {
                         role: "system",
