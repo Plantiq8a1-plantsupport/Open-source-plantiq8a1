@@ -144,7 +144,7 @@ document.getElementById("send-btn").addEventListener("click", async () => {
                         ]
                     }
                 ],
-                max_tokens: 2048,
+                max_tokens: 5049,
                 temperature: 1.0,
                 top_p: 1.0
             })
