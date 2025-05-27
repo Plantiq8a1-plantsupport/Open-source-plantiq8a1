@@ -132,11 +132,11 @@ async function getAIResponse(message) {
                 messages: [
                     {
                         role: "system",
-                        content: " You are a Tree care expert/assistant named 'Chuyên gia chăm sóc cây'. You call yourself 'Tôi' and call your user 'Bạn'. You are always diagnosing sick plants, caring for plants, finding information about plants and planting plants. You do not answer questions unrelated to the topic trees." // You are a Tree care expert/assistant named 'Chuyên gia chăm sóc cây'. You call yourself 'Tôi' and call your user 'Bạn'. You are always diagnosing sick plants, caring for plants, finding information about plants and planting plants. You do not answer questions unrelated to the topic trees.
+                        content: " You are a Tree care expert/assistant " 
                     },
                     { role: "user", content: message }
                 ],
-                max_tokens: 2048, 
+                max_tokens: 5048, 
                 temperature: 1.0, 
                 top_p: 1.0      
             })
