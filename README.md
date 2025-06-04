@@ -1,4 +1,4 @@
-# Plantiq8a1 - EDS_Trh_8A1
+# Plantiq8a1 (2025)
 
 ## Introduction
 Plantiq8a1 is an AI-powered web application designed to assist users in plant care. This project aims to make plant analysis and care easier by leveraging modern AI technology, including OpenAI and Gemini models. The application provides two core functionalities:
@@ -326,15 +326,13 @@ This project is licensed under the MIT License, meaning it is free to use, modif
 For inquiries, support, or collaboration, please reach out via:
 - Email: [aitrongcayservice366972@gmail.com]
 - team:
-+ Nguyen Thanh Tung
 + Nguyen Binh Minh
 + Le Khanh Hung
 + Nguyen Hoang Duy
-+ Pham Nguyen Tuan Minh
 + Do Xuan Bao Ninh
 
 ---
 We hope Plantiq8a1 helps you take better care of your plants! 🌱🚀
 
-#AIFORGOOD2025 (VN)
+
 
